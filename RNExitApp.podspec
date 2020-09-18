@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 	s.summary        = "Exit,close,kill,shutdown app completely for React Native"
 	s.license        = license
 	s.authors        = author
-	s.source         = { :git => repository, :tag => version }
-	s.platforms      = { :ios => "9.0", :tvos => "11.0" }
+	s.source       = { :git => "https://github.com/tanujttn/react-native-exit-app.git" }
+	s.platforms      = { :ios => "9.0", :tvos => "12.0" }
 	s.preserve_paths = 'README.md', 'package.json', '*.js'
 	s.source_files   = 'ios/RNExitApp/**/*.{h,m}'
 
